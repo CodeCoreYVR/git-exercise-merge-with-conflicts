@@ -6,7 +6,8 @@ class Cookie
   FLOUR_CALORIES = 3.64
 
   def initialize(sugar, flour)
-    @sugar, @flour = sugar, flour
+    @sugar = sugar 
+    @flour =  flour
   end
 
   def calorie_count
